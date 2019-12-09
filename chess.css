@@ -1,0 +1,41 @@
+
+.chessBoard {
+   display: flex;
+   margin: 50px auto; 
+   border: 1px solid black;
+   width: 634px;
+   height: 640px;
+   flex-wrap: wrap;}
+.cell{
+    width: 79px;
+    border: 1px solid black;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width:79px;
+    max-height: 79px;
+    min-width:79px;
+    min-height: 79px;
+}
+.currentPosition{
+    color: transparent;
+    background: url(https://image.flaticon.com/icons/png/128/32/32854.png), center no-repeat;
+    background-size: cover;
+}
+
+/*
+
+
+.blackCell{
+    background-color: black;
+    display: inline-block;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    border-color: red;
+    border-style: solid;
+}
+.whiteCell{
+    background-color: white;
+}
+*/
